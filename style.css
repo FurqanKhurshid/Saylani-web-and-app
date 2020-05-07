@@ -1,0 +1,10 @@
+.images{
+    transition: width 2s,height 2s,transform 2s;
+    width: 80px;
+}
+.images:hover{
+    width: 200px;
+    height: 100px;
+    transform: scale(1, 2);
+    background-color: antiquewhite;
+}

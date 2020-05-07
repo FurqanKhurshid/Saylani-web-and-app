@@ -1,0 +1,163 @@
+#top-header{
+    background-color: #316DC3;
+    color: white;
+    /* text-align: center; */
+    /* height: 49px; */
+    /* padding-bottom: 0px;
+    padding-top: 0px; */
+}
+#top-header a{
+    color: white;
+}
+#header-icons{
+    display:flex;
+    justify-content:flex-end;
+    padding-top: 20px;
+    /* width: 200px; */
+} 
+/* #header-icons a{
+    size: 22px;
+} */
+#whatsapp-icon{
+    color: #65BC54;
+    background-color: white;
+    height: 20px;
+}
+/* #header-icons{
+    align-items: center;
+} */
+#header-text{
+    padding: 20px;
+    font-size:15px ;
+    text-align: center;
+}
+#header-button {
+    padding-top:20px;
+    display: flex;
+    justify-content: flex-start;
+    /* text-align: left; */
+}
+#header-button li {
+    display: inline;
+}
+#header-button button{
+    font-size: small;
+    color: #64902E;
+    /* align-items: center; */
+}
+#nav-img img{
+    height:50px;
+    padding-left: 170px;
+}
+#nav-menu{
+    /* display: inline;
+    text-decoration: none; */
+    padding-right: 80px;
+}
+/* #nav-menu ul li a {
+    border-radius: 20px solid #316DC3;
+    color: black;
+} */
+/* .active :active{
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 25px;
+} */
+/* #nav-menu  ul li a:hover {
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 25px;
+} */
+/* .navbar .active{
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 25px;
+} */
+#active{
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 25px;
+}
+.nav-hov{
+    color: black !important;
+}
+.nav-hov:hover{
+    background-color:#316DC3 ;
+    color:white !important;
+    border-radius: 25px;
+}
+#active,.nav-hov{
+    padding: 8px 17px;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 3px;
+    top: 40%;
+}
+.dropdown-submenu:hover .dropdown-menu,
+.dropdown-submenu:focus .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+@media (max-width: 992px) {
+    .dropdown-menu {
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu {
+        width: auto;
+    }
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+/* .dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-submenu>a:after {
+    content: "\f0da";
+    float: right;
+    border: none;
+    font-family: 'FontAwesome';
+  }
+  .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  } */
+  .dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 3px;
+    top: 40%;
+}
+.dropdown-submenu:hover .dropdown-menu,
+.dropdown-submenu:focus .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+@media (max-width: 992px) {
+    .dropdown-menu {
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu {
+        width: auto;
+    }
+}

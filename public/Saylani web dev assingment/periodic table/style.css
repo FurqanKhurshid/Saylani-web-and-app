@@ -1,0 +1,65 @@
+.tab1{
+    empty-cells: hide;
+    
+    
+    
+
+}
+.tab2{
+    empty-cells: hide;
+    
+
+}
+td{
+    text-align: center;
+}
+.first{
+    color: antiquewhite;
+    background-color: #add790;
+
+}
+.second{
+    color: antiquewhite;
+    background-color: #d51f2f;
+}
+.third{
+    color: antiquewhite;
+    background-color: #f7aa1d;
+}
+.fourth{
+    color: black;
+    background-color: #9dbfe8;
+}
+.fifth{
+    color: black;
+    background-color: #c3c3c3;
+}
+.six{
+    color: antiquewhite;
+    background-color: #bc82bc;
+}
+.seven{
+    color: black;
+    background-color: #fbd301;
+}
+.eight{
+    color: antiquewhite;
+    background-color: #009c7b;
+}
+.nine{
+    color: black;
+    background-color: #fab6cd;
+}
+.ten{
+    color: antiquewhite;
+    background-color: #0274ba;
+}
+.eleven{
+    color: black;
+    background-color: #a2d5cd;
+}
+.twelve{
+    color: black;
+    background-color: yellow;
+    font-size: xx-large;
+}

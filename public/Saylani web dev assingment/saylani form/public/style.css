@@ -1,0 +1,60 @@
+.header{
+    position: relative;
+    color: firebrick;
+    left: 600px;
+}
+.table{
+    background-color: midnightblue;
+    color: antiquewhite;
+
+
+}  
+.heading{
+    background-color: white;
+    width: 100%;
+}
+    
+   
+
+.logo{
+    width: 100%;
+}
+.tick{
+    margin: 50px;
+    text-align: center;
+}
+.head{
+    text-align: center;
+    color: green;
+}
+.head2{
+    text-align: center;
+    color:purple ;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+#main{
+background-color: black;
+}
+.board{
+    position: relative;
+    right: 200px;
+}
+.per{
+    position: relative;
+    right: 200px;
+}
+.year{
+    position: relative;
+    right: 200px;
+}
+.char{
+    position: relative;
+    right: 210px;
+}
+.dec{
+    position: relative;
+    right: 210px;
+}
