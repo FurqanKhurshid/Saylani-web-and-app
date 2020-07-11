@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+    <!-- <font color="white"><table align="center" border="15" width="400" cellpadding="20" cellspacing="10" bgcolor="#36383d">
+        <tr>
+            <td bgcolor="#a2af77" colspan="4"></td>
+        </tr>
+        <tr>
+            <td bgcolor="#0f0d0e" align="center">MC</td>
+            <td bgcolor="#0f0d0e" align="center">M+</td>
+            <td bgcolor="#0f0d0e" align="center">/</td>
+            <td bgcolor="#0f0d0e" align="center">x</td>
+        </tr>
+        <tr>
+            <td bgcolor="#5a5a5c" align="center">7</td>
+            <td bgcolor="#5a5a5c" align="center">8</td>
+            <td bgcolor="#5a5a5c" align="center">9</td>
+            <td bgcolor="#5a5a5c" align="center">-</td>
+        </tr>
+        <tr>
+            <td bgcolor="#5a5a5c" align="center">4</td>
+            <td bgcolor="#5a5a5c" align="center">5</td>
+            <td bgcolor="#5a5a5c" align="center">6</td>
+            <td bgcolor="#5a5a5c" align="center">+</td>
+        </tr>
+        <tr>
+            <td bgcolor="#5a5a5c" align="center">1</td>
+            <td bgcolor="#5a5a5c" align="center">2</td>
+            <td bgcolor="#5a5a5c" align="center">3</td>
+            <td bgcolor="#f55329" align="center" rowspan="2">=</td>
+
+        </tr>
+        <tr>
+            <td bgcolor="#5a5a5c" align="center" colspan="2">0</td>
+            <td bgcolor="#5a5a5c" align="center">.</td>
+            
+        </tr>
+       
+    </table ></font>
+    <center><a href="./main.html">Go To Main Page</a>
+    <p>If You Want To Go To Gallery.html</p>
+    <a href="./gallery.html">Click Here</a>
+    </center> -->
+    <div class="cal">
+        <div>
+            <input placeholder="0" id="result" style="width: 392px; height: 50px; background-color: #a2af77;font-size: xx-large;" type="text" width="500">
+        </div>
+        <div>
+            <button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;" onclick="clearResult()">C</button>
+            <button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('M+')">M+</button>
+            <button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;" onclick="onclick=getnum ('/')">/</button>
+            <button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('*')">x</button>
+        </div>
+        <div>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('7')">7</button>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('8')">8</button>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('9')">9</button>
+            <button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('-')">-</button>
+        </div>
+        <div>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('4')">4</button>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('5')">5</button>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('6')">6</button>
+            <button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('+')">+</button>
+        </div>
+        <div>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('1')">1</button>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('2')">2</button>
+            <button style="color: white;background-color: #5a5a5c;width: 90px;height: 65px;margin: 5px 3px;"onclick="getnum ('3')">3</button>
+            <span><button style="color: white;background-color: #0f0d0e;width: 90px;height: 65px;margin: 5px 3px;font-size: large;"onclick="getnum ('.')">.</button></span>
+
+        </div>
+        <div>
+            <button  style="color: white;background-color: #5a5a5c;width: 190px;height: 65px;margin: 5px 3px;"onclick="getnum ('0')">0</button>
+            <button style="color: white;background-color: #f55329;width: 190px;height: 65px;margin: 5px 3px;"onclick="getResult()">=</button>
+            
+        </div>
+       
+    </div ></font>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
